@@ -1,0 +1,520 @@
+information_sharing: Documentation
+**********************************
+
+Accessed: 2018-12-17
+
+
+Information sharing in collective search in n-dimensional correlated environment
+
+
+Participant
+    id_in_session
+        type
+            positive integer
+        doc
+    code
+        type
+            text
+        doc
+            Randomly generated unique identifier for the participant. If you would like to merge this dataset with those from another subsession in the same session, you should join on this field, which will be the same across subsessions.
+    label
+        type
+            text
+        doc
+            Label assigned by the experimenter. Can be assigned by passing a GET param called 'participant_label' to the participant's start URL
+    _is_bot
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non
+    _index_in_pages
+        type
+            positive integer
+        doc
+    _max_page_index
+        type
+            positive integer
+        doc
+    _current_app_name
+        type
+            text
+        doc
+    _current_page_name
+        type
+            text
+        doc
+    ip_address
+        type
+            GenericIPAddressField
+        doc
+    time_started
+        type
+            DateTimeField
+        doc
+    visited
+        type
+            NullBooleanField
+        doc
+            Whether this user's start URL was opened
+        choices
+            True: Oui
+            False: Non
+    mturk_worker_id
+        type
+            text
+        doc
+    mturk_assignment_id
+        type
+            text
+        doc
+    payoff
+        type
+            decimal
+        doc
+Player
+    id_in_group
+        type
+            positive integer
+        doc
+            Index starting from 1. In multiplayer games, indicates whether this is player 1, player 2, etc.
+    nickname
+        type
+            text
+        doc
+    num_etudiant
+        type
+            text
+        doc
+    num_poste
+        type
+            positive integer
+        doc
+    round_num
+        type
+            positive integer
+        doc
+    treatment
+        type
+            positive integer
+        doc
+    treatments_sequence
+        type
+            text
+        doc
+            [error]
+    treatment_name
+        type
+            text
+        doc
+    question1
+        type
+            text
+        doc
+    solution1
+        type
+            text
+        doc
+    is_correct1
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non
+    submitted_answer1
+        type
+            text
+        doc
+        choices
+            Vrai: Vrai
+            Faux: Faux
+    question2
+        type
+            text
+        doc
+    solution2
+        type
+            text
+        doc
+    is_correct2
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non
+    submitted_answer2
+        type
+            text
+        doc
+        choices
+            Vrai: Vrai
+            Faux: Faux
+    question3
+        type
+            text
+        doc
+    solution3
+        type
+            text
+        doc
+    is_correct3
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non
+    submitted_answer3
+        type
+            text
+        doc
+        choices
+            Vrai: Vrai
+            Faux: Faux
+    question4
+        type
+            text
+        doc
+    solution4
+        type
+            text
+        doc
+    is_correct4
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non
+    submitted_answer4
+        type
+            text
+        doc
+        choices
+            Vrai: Vrai
+            Faux: Faux
+    question5
+        type
+            text
+        doc
+    solution5
+        type
+            text
+        doc
+    is_correct5
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non
+    submitted_answer5
+        type
+            text
+        doc
+        choices
+            Vrai: Vrai
+            Faux: Faux
+    questions_correct
+        type
+            positive integer
+        doc
+    game_num
+        type
+            positive integer
+        doc
+    roles_sequence
+        type
+            text
+        doc
+            [error]
+    paying_game_1
+        type
+            positive integer
+        doc
+    paying_game_2
+        type
+            positive integer
+        doc
+    paying_round_1
+        type
+            positive integer
+        doc
+    paying_round_2
+        type
+            positive integer
+        doc
+    face
+        type
+            integer
+        doc
+    hair
+        type
+            integer
+        doc
+    mouth
+        type
+            integer
+        doc
+    brow
+        type
+            integer
+        doc
+    nose_width
+        type
+            integer
+        doc
+    nose_height
+        type
+            integer
+        doc
+    eye_width
+        type
+            integer
+        doc
+    eye_height
+        type
+            integer
+        doc
+    share
+        type
+            integer
+        doc
+        choices
+            0: 0
+            1: 1
+    click_time_choose
+        type
+            decimal
+        doc
+    click_time_share
+        type
+            decimal
+        doc
+    timedout
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non
+    face_maximum
+        type
+            integer
+        doc
+    hair_maximum
+        type
+            integer
+        doc
+    mouth_maximum
+        type
+            integer
+        doc
+    brow_maximum
+        type
+            integer
+        doc
+    nose_width_maximum
+        type
+            integer
+        doc
+    nose_height_maximum
+        type
+            integer
+        doc
+    eye_width_maximum
+        type
+            integer
+        doc
+    eye_height_maximum
+        type
+            integer
+        doc
+    distance_to_max
+        type
+            decimal
+        doc
+    visibility_radius
+        type
+            positive integer
+        doc
+    distance_to_players
+        type
+            text
+        doc
+            [error]
+    my_sharing_neighbours
+        type
+            text
+        doc
+            [error]
+    neighbours_in_my_visibility_radius
+        type
+            text
+        doc
+            [error]
+    all_visibile_neighbours
+        type
+            text
+        doc
+            [error]
+    best_observation
+        type
+            text
+        doc
+            [error]
+    num_splitters
+        type
+            decimal
+        doc
+    robots_choices
+        type
+            text
+        doc
+            [error]
+    copy
+        type
+            integer
+        doc
+    copy_max
+        type
+            integer
+        doc
+    copied_player
+        type
+            integer
+        doc
+    copied_info
+        type
+            text
+        doc
+        choices
+            individual: individual
+            social: social
+    round_payoff
+        type
+            decimal
+        doc
+    game_payoff
+        type
+            decimal
+        doc
+    max_score
+        type
+            positive integer
+        doc
+    currency_rate
+        type
+            positive integer
+        doc
+    currency_symbol
+        type
+            text
+        doc
+    strategy_share_benefit_others
+        type
+            text
+        doc
+        choices
+            1: Oui
+            2: Non
+    strategy_share_benefit_myself
+        type
+            text
+        doc
+        choices
+            1: Oui
+            2: Non
+    strategy_share_good_solution
+        type
+            text
+        doc
+        choices
+            1: Oui
+            2: Non
+    strategy_share_bad_solution
+        type
+            text
+        doc
+        choices
+            1: Oui
+            2: Non
+    strategy_share_average_solution
+        type
+            text
+        doc
+        choices
+            1: Oui
+            2: Non
+    like_being_copied
+        type
+            text
+        doc
+        choices
+            1: J'ai aimé être copié par le autres
+            2: Je n'ai pas aimé être copié par les autres
+    like_copying
+        type
+            text
+        doc
+        choices
+            1: J'ai aimé copier les autres
+            2: Je n'ai pas aimé copier les autres
+    free_comment
+        type
+            text
+        doc
+    payoff
+Group
+    id_in_subsession
+        type
+            positive integer
+        doc
+Subsession
+    round_number
+        type
+            positive integer
+        doc
+            If this subsession is repeated (i.e. has multiple rounds), this
+            field stores the position (index) of this subsession, among subsessions
+            in the same app.
+            For example, if a session consists of the subsessions:
+            [app1, app2, app1, app1, app3]
+            Then the round numbers of these subsessions would be:
+            [1, 1, 2, 3, 1]
+Session
+    code
+        type
+            text
+        doc
+            Randomly generated unique identifier for the session.
+    label
+        type
+            text
+        doc
+    experimenter_name
+        type
+            text
+        doc
+    mturk_HITId
+        type
+            text
+        doc
+    mturk_HITGroupId
+        type
+            text
+        doc
+    comment
+        type
+            text
+        doc
+    is_demo
+        type
+            NullBooleanField
+        doc
+        choices
+            True: Oui
+            False: Non

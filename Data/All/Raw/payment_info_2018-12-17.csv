@@ -1,0 +1,217 @@
+participant.id_in_session,participant.code,participant.label,participant._is_bot,participant._index_in_pages,participant._max_page_index,participant._current_app_name,participant._current_page_name,participant.ip_address,participant.time_started,participant.visited,participant.mturk_worker_id,participant.mturk_assignment_id,participant.payoff,player.id_in_group,player.payoff,group.id_in_subsession,subsession.round_number,session.code,session.label,session.experimenter_name,session.mturk_HITId,session.mturk_HITGroupId,session.comment,session.is_demo
+1,5u36sxws,1,0,835,834,payment_info,PaymentInfoFr,127.0.0.1,2018-11-21 09:21:14.904410+00:00,1,,,61,1,0,1,1,6xbgespz,,,,,,1
+2,f83kw7va,2,0,835,834,payment_info,PaymentInfoFr,127.0.0.1,2018-11-21 09:21:14.911830+00:00,1,,,48,2,0,1,1,6xbgespz,,,,,,1
+3,qy4rqu9o,3,0,835,834,payment_info,PaymentInfoFr,127.0.0.1,2018-11-21 09:21:14.923410+00:00,1,,,46,3,0,1,1,6xbgespz,,,,,,1
+1,fqid6s8m,24,0,835,834,payment_info,PaymentInfoFr,127.0.0.1,2018-11-21 14:47:53.035562+00:00,1,,,45,1,0,1,1,8h6n89xy,,,,,,1
+2,sn6lodlh,25,0,835,834,payment_info,PaymentInfoFr,127.0.0.1,2018-11-21 14:49:00.963367+00:00,1,,,38,2,0,1,1,8h6n89xy,,,,,,1
+3,3hlffcgi,26,0,835,834,payment_info,PaymentInfoFr,127.0.0.1,2018-11-21 14:49:29.052061+00:00,1,,,57,3,0,1,1,8h6n89xy,,,,,,1
+1,sleni8s5,1,0,214,834,information_sharing,InstructionsVisibility,127.0.0.1,2018-11-21 23:36:25.952928+00:00,1,,,0,1,0,1,1,pe15kmkl,,,,,,1
+2,66gm2lzb,2,0,214,834,information_sharing,InstructionsVisibility,127.0.0.1,2018-11-21 23:36:26.022953+00:00,1,,,0,2,0,1,1,pe15kmkl,,,,,,1
+3,zp5kxgl5,3,0,214,834,information_sharing,InstructionsVisibility,127.0.0.1,2018-11-21 23:36:26.018744+00:00,1,,,0,3,0,1,1,pe15kmkl,,,,,,1
+1,4aquzpwd,,0,0,834,,,,,0,,,0,1,0,1,1,jwtq35p6,,,,,,1
+2,m5pcmnyg,,0,0,834,,,,,0,,,0,2,0,1,1,jwtq35p6,,,,,,1
+3,a0aoh3na,,0,0,834,,,,,0,,,0,3,0,1,1,jwtq35p6,,,,,,1
+1,k75mh80j,,0,1,3434,information_sharing,NumPoste,127.0.0.1,2018-11-22 17:36:36.678593+00:00,1,,,0,1,0,1,1,tg5q50tf,,,,,,1
+2,53eyqxa2,,0,1,3434,information_sharing,NumPoste,127.0.0.1,2018-11-22 17:36:36.796059+00:00,1,,,0,2,0,1,1,tg5q50tf,,,,,,1
+3,a8dyqioy,,0,1,3434,information_sharing,NumPoste,127.0.0.1,2018-11-22 17:36:37.063210+00:00,1,,,0,3,0,1,1,tg5q50tf,,,,,,1
+4,8jw1stlk,,0,1,3434,information_sharing,NumPoste,127.0.0.1,2018-11-22 17:36:37.274691+00:00,1,,,0,4,0,1,1,tg5q50tf,,,,,,1
+5,km0fasw4,,0,1,3434,information_sharing,NumPoste,127.0.0.1,2018-11-22 17:36:37.376342+00:00,1,,,0,5,0,1,1,tg5q50tf,,,,,,1
+6,pf78zi1b,,0,1,3434,information_sharing,NumPoste,127.0.0.1,2018-11-22 17:36:37.888822+00:00,1,,,0,6,0,1,1,tg5q50tf,,,,,,1
+1,2falqb79,,0,1,3434,information_sharing,NumPoste,127.0.0.1,2018-11-22 18:12:59.640903+00:00,1,,,0,1,0,1,1,rbl3iddj,,,,,,1
+2,spmrlqyy,,0,0,3434,,,,,0,,,0,2,0,1,1,rbl3iddj,,,,,,1
+3,to1il2zv,,0,0,3434,,,,,0,,,0,3,0,1,1,rbl3iddj,,,,,,1
+4,y48geuoe,,0,0,3434,,,,,0,,,0,4,0,1,1,rbl3iddj,,,,,,1
+5,ga03nk4j,,0,0,3434,,,,,0,,,0,5,0,1,1,rbl3iddj,,,,,,1
+6,48t9xjff,,0,0,3434,,,,,0,,,0,6,0,1,1,rbl3iddj,,,,,,1
+1,2x2ohjff,1,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:36:43.986453+00:00,1,,,555,1,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+2,eg6tj5vs,12,0,3435,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:01.052919+00:00,1,,,674,2,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+3,ldx7guui,2,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:07.958957+00:00,1,,,436,3,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+4,dn8s9nkp,13,0,3435,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:09.491914+00:00,1,,,325,4,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+5,9ztbewm5,14,0,3435,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:18.350202+00:00,1,,,742,5,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+6,4akypmg0,3,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:20.844078+00:00,1,,,236,6,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+7,s40w9dms,15,0,3435,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:25.548514+00:00,1,,,320,7,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+8,icgzhlfr,4,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:28.337084+00:00,1,,,291,8,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+9,esykg0ds,16,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:38.015323+00:00,1,,,474,9,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+10,odvogw5b,6,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:38.596969+00:00,1,,,390,10,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+11,1tm7snbv,7,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:47.577017+00:00,1,,,248,11,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+12,xghv7sdy,18,0,3435,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:48.850481+00:00,1,,,271,12,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+13,x8j9nbvw,8,0,3435,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:56.034175+00:00,1,,,300,13,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+14,vcxvl3g4,19,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:37:57.117858+00:00,1,,,522,14,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+15,juq2j1k5,9,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:38:03.624760+00:00,1,,,185,15,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+16,hs7azo3k,20,0,3435,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:38:06.080886+00:00,1,,,209,16,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+17,ywg8qta3,10,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:38:09.669372+00:00,1,,,536,17,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+18,zgaqi44s,11,0,3434,3434,payment_info,PaymentInfoFr,127.0.0.1,2018-11-23 11:38:32.537966+00:00,1,,,417,18,0,1,1,hli9gwvh,T1_18_players,Imen,,,,0
+1,n9hv9lqa,,0,0,3434,,,,,0,,,0,1,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+2,jnjmcq4q,,0,0,3434,,,,,0,,,0,2,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+3,p3dubkzd,,0,0,3434,,,,,0,,,0,3,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+4,btpi822r,,0,0,3434,,,,,0,,,0,4,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+5,c923ukx6,,0,0,3434,,,,,0,,,0,5,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+6,wk1ylkn2,,0,0,3434,,,,,0,,,0,6,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+7,2d20xyl2,,0,0,3434,,,,,0,,,0,7,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+8,la7q38za,,0,0,3434,,,,,0,,,0,8,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+9,djybdng8,,0,0,3434,,,,,0,,,0,9,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+10,rxupod4r,,0,0,3434,,,,,0,,,0,10,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+11,q2ib7y1q,,0,0,3434,,,,,0,,,0,11,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+12,dr1zdixm,,0,0,3434,,,,,0,,,0,12,0,1,1,98tj1ojd,T1_12_players,Imen,,,,0
+1,x0eyiemw,1,0,57,3434,information_sharing,InstructionsCollective,127.0.0.1,2018-11-23 10:54:47.120291+00:00,1,,,0,1,0,1,1,urgeyn6o,,,,,,1
+2,vblsnoi8,2,0,57,3434,information_sharing,InstructionsCollective,127.0.0.1,2018-11-23 10:54:47.275699+00:00,1,,,0,2,0,1,1,urgeyn6o,,,,,,1
+3,wgkelmpy,3,0,57,3434,information_sharing,InstructionsCollective,127.0.0.1,2018-11-23 10:54:47.431117+00:00,1,,,0,3,0,1,1,urgeyn6o,,,,,,1
+4,vmiyj0tc,4,0,57,3434,information_sharing,InstructionsCollective,127.0.0.1,2018-11-23 10:54:47.567805+00:00,1,,,0,4,0,1,1,urgeyn6o,,,,,,1
+5,dnp1s7ke,5,0,57,3434,information_sharing,InstructionsCollective,127.0.0.1,2018-11-23 10:54:47.738170+00:00,1,,,0,5,0,1,1,urgeyn6o,,,,,,1
+6,ffb6lx70,6,0,57,3434,information_sharing,InstructionsCollective,127.0.0.1,2018-11-23 10:54:47.897889+00:00,1,,,0,6,0,1,1,urgeyn6o,,,,,,1
+1,5yy6rcj2,1,0,32,3566,information_sharing,TrainingIndividual,127.0.0.1,2018-11-25 21:33:07.980180+00:00,1,,,0,1,0,1,1,50bsnxhi,,,,,,1
+2,n3f2qzp9,2,0,32,3566,information_sharing,TrainingIndividual,127.0.0.1,2018-11-25 21:33:08.327815+00:00,1,,,0,2,0,1,1,50bsnxhi,,,,,,1
+3,znjcauu4,3,0,32,3566,information_sharing,TrainingIndividual,127.0.0.1,2018-11-25 21:33:08.534531+00:00,1,,,0,3,0,1,1,50bsnxhi,,,,,,1
+4,b9opsb6x,4,0,32,3566,information_sharing,TrainingIndividual,127.0.0.1,2018-11-25 21:33:08.734278+00:00,1,,,0,4,0,1,1,50bsnxhi,,,,,,1
+5,zo8dj93e,5,0,32,3566,information_sharing,TrainingIndividual,127.0.0.1,2018-11-25 21:33:08.931269+00:00,1,,,0,5,0,1,1,50bsnxhi,,,,,,1
+6,8h5pawg9,6,0,32,3566,information_sharing,TrainingIndividual,127.0.0.1,2018-11-25 21:33:09.058573+00:00,1,,,0,6,0,1,1,50bsnxhi,,,,,,1
+1,ivrfqhyb,,0,0,3566,,,,,0,,,0,1,0,1,1,3wrsmjj3,,,,,,1
+2,t3fz1tuc,,0,0,3566,,,,,0,,,0,2,0,1,1,3wrsmjj3,,,,,,1
+3,6i1usifq,,0,0,3566,,,,,0,,,0,3,0,1,1,3wrsmjj3,,,,,,1
+4,a7em9ujj,,0,0,3566,,,,,0,,,0,4,0,1,1,3wrsmjj3,,,,,,1
+5,ttomeuob,,0,0,3566,,,,,0,,,0,5,0,1,1,3wrsmjj3,,,,,,1
+6,ktfkh4vw,,0,0,3566,,,,,0,,,0,6,0,1,1,3wrsmjj3,,,,,,1
+1,6em90v3d,1,0,89,3566,information_sharing,TrainingCollective,127.0.0.1,2018-11-26 02:04:59.321990+00:00,1,,,0,1,0,1,1,041c7i8r,,,,,,1
+2,py1wjbb7,2,0,89,3566,information_sharing,TrainingCollective,127.0.0.1,2018-11-26 02:04:59.650534+00:00,1,,,0,2,0,1,1,041c7i8r,,,,,,1
+3,yay11ig9,3,0,89,3566,information_sharing,TrainingCollective,127.0.0.1,2018-11-26 02:04:59.844062+00:00,1,,,0,3,0,1,1,041c7i8r,,,,,,1
+4,c33x69oi,4,0,89,3566,information_sharing,TrainingCollective,127.0.0.1,2018-11-26 02:05:00.096469+00:00,1,,,0,4,0,1,1,041c7i8r,,,,,,1
+5,iuvc6nuz,5,0,89,3566,information_sharing,TrainingCollective,127.0.0.1,2018-11-26 02:05:00.289660+00:00,1,,,0,5,0,1,1,041c7i8r,,,,,,1
+6,4ymoq07e,6,0,89,3566,information_sharing,TrainingCollective,127.0.0.1,2018-11-26 02:05:00.472116+00:00,1,,,0,6,0,1,1,041c7i8r,,,,,,1
+1,3twna3t0,1,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:24:57.143444+00:00,1,,,326,1,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+2,0rte0c1a,11,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:25:53.448239+00:00,1,,,158,2,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+3,k4xjghxf,2,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:26:09.824029+00:00,1,,,519,3,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+4,uezuhibo,10,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:26:52.373335+00:00,1,,,256,4,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+5,dsw9aq67,3,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:27:25.491896+00:00,1,,,347,5,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+6,8xb4q8et,9,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:27:48.011863+00:00,1,,,192,6,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+7,4y8kzdeh,4,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:28:36.981086+00:00,1,,,290,7,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+8,sucjk5gy,8,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:28:47.810074+00:00,1,,,241,8,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+9,dvz4rtun,6,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:29:23.881136+00:00,1,,,327,9,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+10,447yawxy,7,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:29:46.168959+00:00,1,,,331,10,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+11,cknzp8kf,16,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:30:38.747351+00:00,1,,,293,11,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+12,3yovtn5e,23,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:30:54.236135+00:00,1,,,399,12,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+13,xal27nou,15,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:31:48.373701+00:00,1,,,265,13,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+14,4jdx1ut2,22,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:32:09.964920+00:00,1,,,380,14,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+15,xyqc24wc,21,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:33:16.034924+00:00,1,,,259,15,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+16,t78olrc6,14,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:33:46.585582+00:00,1,,,287,16,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+17,bo166wa6,20,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:34:13.928490+00:00,1,,,451,17,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+18,bji0bw76,13,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:34:54.623814+00:00,1,,,355,18,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+19,z7iey531,19,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:35:03.200041+00:00,1,,,452,19,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+20,eqxxgq6o,18,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:35:49.264313+00:00,1,,,279,20,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+21,kwdavha0,12,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:35:50.567620+00:00,1,,,376,21,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+22,j0aabtub,24,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:37:07.219087+00:00,1,,,158,22,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+23,pbnjwhlx,25,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:37:57.876760+00:00,1,,,411,23,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+24,t8ey7b9m,26,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-29 07:38:47.739683+00:00,1,,,356,24,0,1,1,lgwlanr4,T1_24_players,Imen,,,Second session of the first treatment with 24 subjects,0
+1,xux367j8,1,0,2346,3566,information_sharing,Results,127.0.0.1,2018-11-29 21:16:07.081127+00:00,1,,,0,1,0,1,1,xme3m89q,,,,,,1
+2,rzuf3i78,2,0,2346,3566,information_sharing,Results,127.0.0.1,2018-11-29 21:16:07.270724+00:00,1,,,0,2,0,1,1,xme3m89q,,,,,,1
+3,60m83z5u,3,0,2346,3566,information_sharing,Results,127.0.0.1,2018-11-29 21:16:07.461303+00:00,1,,,0,3,0,1,1,xme3m89q,,,,,,1
+4,eapgd3js,4,0,2346,3566,information_sharing,Results,127.0.0.1,2018-11-29 21:16:07.695101+00:00,1,,,0,4,0,1,1,xme3m89q,,,,,,1
+5,wx6y7bzo,5,0,2346,3566,information_sharing,Results,127.0.0.1,2018-11-29 21:16:07.859068+00:00,1,,,0,5,0,1,1,xme3m89q,,,,,,1
+6,wk6ye7o9,6,0,2346,3566,information_sharing,Results,127.0.0.1,2018-11-29 21:16:08.043236+00:00,1,,,0,6,0,1,1,xme3m89q,,,,,,1
+1,j0xiivyz,1,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:25:16.032017+00:00,1,,,572,1,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+2,k5lnv19a,2,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:26:37.143776+00:00,1,,,507,2,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+3,esw9t2u6,3,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:27:24.890089+00:00,1,,,374,3,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+4,6f5eo5qs,4,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:28:28.279087+00:00,1,,,498,4,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+5,fmz57fpf,6,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:29:26.206714+00:00,1,,,552,5,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+6,rtqnbkhx,11,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:29:26.952126+00:00,1,,,714,6,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+7,6wx169dn,7,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:32:25.207990+00:00,1,,,561,7,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+8,qysiveus,10,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:33:11.729921+00:00,1,,,508,8,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+9,9clnuvao,8,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:33:39.250245+00:00,1,,,438,9,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+10,5vzjzgsf,12,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:34:07.026135+00:00,1,,,516,10,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+11,u4dc8p56,9,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:34:32.145841+00:00,1,,,520,11,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+12,cszbiss2,13,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:35:01.473556+00:00,1,,,362,12,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+13,htoyssmk,14,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:35:56.759936+00:00,1,,,382,13,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+14,3fix82nw,23,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:36:22.832044+00:00,1,,,395,14,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+15,g69t268w,15,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:36:46.563595+00:00,1,,,448,15,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+16,hphat5vn,22,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:37:08.191501+00:00,1,,,577,16,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+17,c73b55tt,16,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:37:31.633927+00:00,1,,,708,17,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+18,ujnzqpxw,21,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:37:52.698907+00:00,1,,,394,18,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+19,9vyxpqdo,18,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:38:30.876337+00:00,1,,,768,19,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+20,kwrc4wtt,20,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:38:36.399834+00:00,1,,,262,20,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+21,09nklpgl,26,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:39:18.727851+00:00,1,,,438,21,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+22,ceng0n0z,19,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:39:19.876978+00:00,1,,,437,22,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+23,2v2box99,25,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:40:00.262784+00:00,1,,,732,23,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+24,k78ve10v,24,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 07:40:46.422975+00:00,1,,,389,24,0,1,1,liv7qjj5,T2_24_players,,,,First session of T2 wih 24 players,0
+1,y4yrqpxw,1,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:29:54.892734+00:00,1,,,564,1,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+2,0tnlyapn,2,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:30:51.028704+00:00,1,,,713,2,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+3,5yzul6qx,11,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:30:56.637339+00:00,1,,,344,3,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+4,1mjme1ae,3,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:31:36.362714+00:00,1,,,591,4,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+5,vukn05m2,10,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:31:49.827144+00:00,1,,,317,5,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+6,qv0j016b,4,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:32:24.213966+00:00,1,,,309,6,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+7,3968ma94,9,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:32:59.695488+00:00,1,,,228,7,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+8,1mtmnuz2,6,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:33:36.169860+00:00,1,,,283,8,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+9,xh223ih9,8,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:33:50.773739+00:00,1,,,220,9,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+10,jinvduuz,7,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:34:24.204238+00:00,1,,,421,10,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+11,a9h21ocr,12,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:34:58.622981+00:00,1,,,427,11,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+12,7611js9j,23,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:35:54.421659+00:00,1,,,281,12,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+13,2ucooec2,13,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:35:54.807966+00:00,1,,,198,13,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+14,9angajjw,22,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:36:47.082513+00:00,1,,,410,14,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+15,pe5p933p,14,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:36:52.811795+00:00,1,,,237,15,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+16,vmiw6tct,21,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:37:18.174568+00:00,1,,,330,16,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+17,pti20g3k,15,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:37:28.240695+00:00,1,,,263,17,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+18,u7lh59kn,20,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:37:46.476440+00:00,1,,,283,18,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+19,qq502xm6,16,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:38:17.118523+00:00,1,,,250,19,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+20,z40vutwe,19,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:38:32.833694+00:00,1,,,559,20,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+21,6g2j9mmk,18,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:39:22.298406+00:00,1,,,355,21,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+22,2tuxc8j7,24,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:39:34.909845+00:00,1,,,220,22,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+23,26b15f30,25,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:40:11.246257+00:00,1,,,286,23,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+24,2ouamuss,26,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-11-30 11:40:56.357139+00:00,1,,,357,24,0,1,1,o8ridi1j,T2_24_players,,,,Second session of T2 with 24 players,0
+1,jlmvu9m4,1,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:36:58.191007+00:00,1,,,298,1,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+2,2g1yg9kr,2,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:37:44.409390+00:00,1,,,205,2,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+3,toi5y1ye,3,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:38:28.706187+00:00,1,,,123,3,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+4,6enysgue,4,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:39:07.819514+00:00,1,,,341,4,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+5,fqk51g93,6,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:39:47.588978+00:00,1,,,414,5,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+6,lai72m02,7,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:40:28.695132+00:00,1,,,467,6,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+7,8iwrth77,8,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:41:09.995034+00:00,1,,,281,7,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+8,aeyhvbu0,9,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:42:01.244907+00:00,1,,,363,8,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+9,8izf2z5m,10,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:42:56.106294+00:00,1,,,357,9,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+10,fusm6v3z,11,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:43:26.722519+00:00,1,,,477,10,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+11,z1bazwli,19,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:44:40.881780+00:00,1,,,550,11,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+12,ksfymipr,18,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:45:18.641782+00:00,1,,,394,12,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+13,vbexqs2f,12,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:46:05.446527+00:00,1,,,360,13,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+14,yxhzk8gh,16,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:46:07.373651+00:00,1,,,256,14,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+15,0wyzr0mj,13,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:47:14.333380+00:00,1,,,198,15,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+16,nx3nnkdm,15,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:47:15.320518+00:00,1,,,293,16,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+17,br0df1xb,14,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:47:56.368179+00:00,1,,,332,17,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+18,21t4pubk,20,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-05 11:49:11.099947+00:00,1,,,275,18,0,1,1,jyrozqq6,T2_18_players,,,,3rd session,0
+1,hkjt4m3m,1,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:17:45.224470+00:00,1,,,257,1,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+2,orkbplc2,2,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:17:53.145951+00:00,1,,,321,2,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+3,eqym7emg,3,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:18:01.385824+00:00,1,,,398,3,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+4,h536prfp,4,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:18:07.307744+00:00,1,,,392,4,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+5,0osjyapg,6,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:18:16.477009+00:00,1,,,182,5,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+6,687akyko,7,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:18:27.556892+00:00,1,,,309,6,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+7,su5mifpf,9,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:18:42.580650+00:00,1,,,467,7,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+8,gqmt0do1,10,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:18:50.847175+00:00,1,,,252,8,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+9,1ipu2wt1,11,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:19:01.879921+00:00,1,,,357,9,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+10,g7rpzssd,13,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:19:29.572991+00:00,1,,,271,10,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+11,xwx1yx2z,14,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:19:40.530911+00:00,1,,,352,11,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+12,48xc5xb6,15,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:19:48.248174+00:00,1,,,511,12,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+13,2uh37oxb,16,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:19:56.437588+00:00,1,,,295,13,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+14,pz0aug8s,18,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:20:04.249492+00:00,1,,,390,14,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+15,i9vj3nwh,19,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:20:11.702269+00:00,1,,,418,15,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+16,66ba9ucs,20,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:20:21.914126+00:00,1,,,416,16,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+17,r4lrmn25,12,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:22:14.960612+00:00,1,,,323,17,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+18,oaxvsw7i,8,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-06 07:23:07.060530+00:00,1,,,538,18,0,1,1,qb15bpn3,T1_18_players,Imen,,,3rd session,0
+1,uubyekxl,1,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:32:05.027150+00:00,1,,,738,1,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+2,kox82aya,2,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:32:56.263580+00:00,1,,,420,2,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+3,yqxyubdo,3,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:33:37.466873+00:00,1,,,402,3,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+4,y0eqa8cc,6,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:36:15.516215+00:00,1,,,288,4,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+5,qi3y34bx,4,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:36:45.142909+00:00,1,,,793,5,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+6,wmltm5f5,8,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:37:28.728890+00:00,1,,,181,6,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+7,nx9xld68,7,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:38:07.782896+00:00,1,,,348,7,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+8,4pxxkfj7,9,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:38:24.679653+00:00,1,,,243,8,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+9,2p7980tu,11,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:39:00.456948+00:00,1,,,360,9,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+10,m502wjp4,10,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:39:53.340677+00:00,1,,,312,10,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+11,ecjas29d,12,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:40:34.989648+00:00,1,,,395,11,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+12,5y0xfecw,13,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:41:05.830844+00:00,1,,,421,12,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+13,hg36dffy,15,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:41:56.468364+00:00,1,,,341,13,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+14,y3jyqwuz,14,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:42:21.172231+00:00,1,,,642,14,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+15,l3b6h2a9,16,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:42:47.830190+00:00,1,,,189,15,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+16,ynk2hczn,18,0,3567,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:43:38.937061+00:00,1,,,282,16,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+17,szzgp35f,19,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:43:39.987558+00:00,1,,,453,17,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+18,rssw6z6w,20,0,3566,3566,payment_info,PaymentInfoFr,127.0.0.1,2018-12-13 11:44:29.236413+00:00,1,,,775,18,0,1,1,ye04qxdw,T1_18_players,Imen,,,3rd session of T1,0
+1,kdc5hpa0,2,0,116,3566,information_sharing,TrainingCollective,127.0.0.1,2018-12-14 16:11:58.039780+00:00,1,,,0,1,0,1,1,vh2ackmz,,,,,,1
+2,b3i0r9wj,3,0,116,3566,information_sharing,TrainingCollective,127.0.0.1,2018-12-14 16:11:58.155204+00:00,1,,,0,2,0,1,1,vh2ackmz,,,,,,1
+3,vn5kr3v3,4,0,116,3566,information_sharing,TrainingCollective,127.0.0.1,2018-12-14 16:11:58.484745+00:00,1,,,0,3,0,1,1,vh2ackmz,,,,,,1
+4,0dhk1taj,5,0,116,3566,information_sharing,TrainingCollective,127.0.0.1,2018-12-14 16:11:58.600834+00:00,1,,,0,4,0,1,1,vh2ackmz,,,,,,1
+5,86mfyf7x,6,0,116,3566,information_sharing,TrainingCollective,127.0.0.1,2018-12-14 16:11:58.710486+00:00,1,,,0,5,0,1,1,vh2ackmz,,,,,,1
+6,44feljkf,1,0,116,3566,information_sharing,TrainingCollective,127.0.0.1,2018-12-14 16:11:58.899568+00:00,1,,,0,6,0,1,1,vh2ackmz,,,,,,1
