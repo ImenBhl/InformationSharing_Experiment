@@ -2,7 +2,8 @@
 rm(list=ls())
 
 #load packages
-packages <- c('readxl', 'plyr',  'dplyr',  'ggplot2', 'RColorBrewer','pals', 'vioplot', 'aplpack', 'moments', 'nortest', 'hexbin', 'plotly', 'ggsignif', 'ggpubr', 'cowplot',  'viridis', 'ggbeeswarm')
+packages <- c('readxl', 'plyr',  'dplyr',  'ggplot2', 'RColorBrewer','pals', 'vioplot', 'aplpack', 'moments', 'nortest', 'hexbin', 'plotly', 'ggsignif', 'ggpubr', 'cowplot', 'lme4', 'stargazer', 'viridis', 'ggbeeswarm')
+#lapply(packages, install.packages, character.only=TRUE)
 lapply(packages, require, character.only=TRUE)
 
 #Use colorblindfriendly palette for discrete data
@@ -16,7 +17,7 @@ se <- function(x){
 
 
 #load data
-realGame_data<-get(load("Code/RealGameData.Rdata"))
+realGame_data<-get(load("CleanCode/Data/RealGameData.Rdata"))
 
 
 
@@ -246,7 +247,6 @@ dt <- ddply(subset(realGame_data, round_num_in_game>2), ~round_num_in_game+share
             m = mean(difference_in_game_payoff_lag2, na.rm=TRUE), error = se(difference_in_game_payoff_lag2))
 dt$Visibility <- factor(dt$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
 dt$Share <- dt$share_lag2
-dt$part2 <- ifelse (dt$part =="Treatment 1", "Part 1", "Part 2")
 
 plot_improvement_game_payoff_aross_time <- ggplot(dt, aes( x = round_num_in_game, y=m, color = Share, group = Share)) +
   geom_point()+
@@ -254,7 +254,7 @@ plot_improvement_game_payoff_aross_time <- ggplot(dt, aes( x = round_num_in_game
   #geom_hline(yintercept=0, linetype="dashed", color = "gray")+
   geom_errorbar(aes(ymin=m - 2*error, ymax=m + 2*error), size=0.5, width=.01, alpha=0.45) +
   scale_x_continuous(breaks = seq(0,15,5))+
-  facet_grid(treatments_order~part2+games, labeller=labeller(part2=label_value, Visibility=label_both, treatments_order=label_value, games=label_value, Share=label_both))+
+  facet_grid(treatments_order~part+games, labeller=labeller(part=label_value, Visibility=label_both, treatments_order=label_value, games=label_value, Share=label_both))+
   guides(color=guide_legend(title="Share decision \n(two rounds ago)") , fill=guide_legend(title="Share decision \n(two rounds ago)") ) +
   #expand_limits(y=0)+
   xlab("Round") +
@@ -276,7 +276,6 @@ dt <- ddply(subset(realGame_data, round_num_in_game>2), ~round_num_in_game+share
             m = mean(num_splitters, na.rm=TRUE), error = se(num_splitters))
 dt$Visibility <- factor(dt$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
 dt$Share <- dt$share_lag2
-dt$part2 <- ifelse (dt$part =="Treatment 1", "Part 1", "Part 2")
 
 plot_num_splitters_aross_time <- ggplot(dt, aes( x = round_num_in_game, y=m, color = Share, group = Share)) +
   geom_point()+
@@ -284,7 +283,7 @@ plot_num_splitters_aross_time <- ggplot(dt, aes( x = round_num_in_game, y=m, col
   geom_errorbar(aes(ymin=m - 2*error, ymax=m + 2*error), size=0.5, width=.01, alpha=0.45) +
   #geom_ribbon(aes(ymin = m - 2*error, ymax = m + 2*error, fill = Share), alpha=0.2)+
   scale_x_continuous(breaks = seq(0,15,5))+
-  facet_grid(treatments_order~part2+games, labeller=labeller(part2=label_value, Visibility=label_both, treatments_order=label_value, games=label_value, Share=label_both))+
+  facet_grid(treatments_order~part+games, labeller=labeller(part=label_value, Visibility=label_both, treatments_order=label_value, games=label_value, Share=label_both))+
   guides(color=guide_legend(title="Share decision \n(two rounds ago)") , fill=guide_legend(title="Share decision \n(two rounds ago)") ) +
   xlab("Round") +
   ylab("Number of splitters") +

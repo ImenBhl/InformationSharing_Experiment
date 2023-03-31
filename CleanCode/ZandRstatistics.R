@@ -1,3 +1,23 @@
+#house cleaning
+rm(list=ls())
+
+#load packages
+packages <- c('plyr',  'dplyr')
+#lapply(packages, install.packages, character.only=TRUE)
+lapply(packages, require, character.only=TRUE)
+
+#Now let's make learning curves
+se <- function(x){
+  return (sd(x, na.rm=TRUE)/sqrt(length(x[!is.na(x)])))
+}
+
+
+#load data
+realGame_data<-get(load("CleanCode/Data/RealGameData.Rdata"))
+
+
+
+
 d <- ddply(realGame_data, ~participant.code+visibility_radius+treatments_order+part, summarize, m = mean(normalized_round_payoff), error = se(normalized_round_payoff))
 d$Visibility <- factor(d$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
 

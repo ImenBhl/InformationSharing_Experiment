@@ -14,7 +14,7 @@ realGame_data <- subset(data, subsession.round_number>12)
 
 #order data
 realGame_data <- realGame_data[with(realGame_data, order(realGame_data$participant.code, realGame_data$round_num)), ]
-utils::View(realGame_data)
+#utils::View(realGame_data)
 
 
 #Parameters values (fixed)
@@ -35,7 +35,7 @@ realGame_data$group.id <- paste0(as.character(realGame_data$group.id_in_subsessi
 
 ######################
 ###lagging variables
-#####################
+#####################s
 
 #Share decision in the two previous rounds and Copy decisions in the previous round
 realGame_data$share_lag1 <- NA
@@ -74,7 +74,7 @@ realGame_data$difference_in_round_payoff_lag2 <- NA
 realGame_data$difference_in_game_payoff_lag2 <- NA
 
 for (r in (1:nrow(realGame_data))) {
-  print (r)
+  #print (r)
   if (realGame_data$round_num_in_game[r]>2){
     realGame_data$normalized_round_payoff_lag2[r] <- realGame_data$normalized_round_payoff[r-2]
     realGame_data$normalized_round_payoff_before_splitting_lag2[r] <- realGame_data$normalized_round_payoff_before_splitting[r-2]
@@ -311,7 +311,7 @@ for (r in (1:nrow(realGame_data))) {
 
 #Additional information from my visibilibity radius (mean, max)
 for (r in (1:nrow(realGame_data))) {
-  print(r)
+  #print(r)
   if(realGame_data$num_neighbours_in_visibility_radius[r] == 0){
     realGame_data$mean_additional_info_from_my_visibilibity_rad[r] <- NA
     realGame_data$max_additional_info_from_my_visibilibity_rad[r]<- NA
@@ -351,7 +351,7 @@ for (r in (1:nrow(realGame_data))) {
 
 #Additional information shared with me (mean, max)
 for (r in (1:nrow(realGame_data))) {
-  print(r)
+  #print(r)
   if(realGame_data$num_sharers_in_group[r] == 0){
     realGame_data$mean_additional_info_shared_with_me[r] <- NA
     realGame_data$max_additional_info_shared_with_me[r]<- NA
@@ -368,6 +368,9 @@ for (r in (1:nrow(realGame_data))) {
     realGame_data$max_additional_info_shared_with_me[r] <- max(payoffs_of_sharers)
   }
 }
+
+
+realGame_data <- realGame_data[with(realGame_data, order(realGame_data$participant.code, realGame_data$round_num)), ]
 
 #save data
 save(realGame_data, file="CleanCode/Data/RealGameData.Rdata")

@@ -154,10 +154,10 @@ as.numeric(data$distance_to_players[[row]][[value_index]])
 data <- data[with(data, order(data$session.code, data$round_num, data$group.id_in_subsession, data$id_in_group)), ]
 
 #save data
-save(data, file="Code/Data.Rdata")
+save(data, file="CleanCode/Data/Data.Rdata")
 
 #load data
-#data<-get(load("Code/Data.Rdata"))
+#data<-get(load("CleanCode/Data/Data.Rdata"))
 
 #View data
-View(data)
+#View(data)
