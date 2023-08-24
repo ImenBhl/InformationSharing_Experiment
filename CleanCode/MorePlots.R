@@ -215,6 +215,7 @@ ggsave(filename = "Results/GamePayoff_by_sharingProb.pdf", plot = game_payoff_by
 realGame_data$num_neighbours_in_visibility_radius <- as.numeric(realGame_data$num_neighbours_in_visibility_radius)
 dt <- ddply(subset(realGame_data, round_num_in_game>1), ~visibility_radius+treatments_order+round_num_in_game, summarize, m = mean(num_neighbours_in_visibility_radius), error = se(num_neighbours_in_visibility_radius))
 dt$Visibility <- factor(dt$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
+d$num_neighbours_in_visibility_radius <- d$num_neighbours_in_visibility_radius -1
 
 
 plot_similarity_aross_time <- ggplot(dt, aes(x = round_num_in_game, y = m, color = Visibility, group = Visibility)) +
@@ -234,6 +235,196 @@ plot_similarity_aross_time <- ggplot(dt, aes(x = round_num_in_game, y = m, color
 ggsave(filename = "Results/SimilarityEvolution.pdf", plot = plot_similarity_aross_time, height =4, width = 6, units = "in")
 
 
+
+
+
+d1 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_1, summarize, m = mean(share), error = se(share))
+d1$proximity <- 1
+colnames(d1)[colnames(d1) == "num_others_in_distance_of_1"] ="num_others_in_proximity"
+
+d2 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_2, summarize, m = mean(share), error = se(share))
+d2$proximity <- 2
+colnames(d2)[colnames(d2) == "num_others_in_distance_of_2"] ="num_others_in_proximity"
+
+d3 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_3, summarize, m = mean(share), error = se(share))
+d3$proximity <- 3
+colnames(d3)[colnames(d3) == "num_others_in_distance_of_3"] ="num_others_in_proximity"
+
+d4 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_4, summarize, m = mean(share), error = se(share))
+d4$proximity <- 4
+colnames(d4)[colnames(d4) == "num_others_in_distance_of_4"] ="num_others_in_proximity"
+
+d5 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_5, summarize, m = mean(share), error = se(share))
+d5$proximity <- 5
+colnames(d5)[colnames(d5) == "num_others_in_distance_of_5"] ="num_others_in_proximity"
+
+d6 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_6, summarize, m = mean(share), error = se(share))
+d6$proximity <- 6
+colnames(d6)[colnames(d6) == "num_others_in_distance_of_6"] ="num_others_in_proximity"
+
+d7 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_7, summarize, m = mean(share), error = se(share))
+d7$proximity <- 7
+colnames(d7)[colnames(d7) == "num_others_in_distance_of_7"] ="num_others_in_proximity"
+
+d8 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_8, summarize, m = mean(share), error = se(share))
+d8$proximity <- 8
+colnames(d8)[colnames(d8) == "num_others_in_distance_of_8"] ="num_others_in_proximity"
+
+d9 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_9, summarize, m = mean(share), error = se(share))
+d9$proximity <- 9
+colnames(d9)[colnames(d9) == "num_others_in_distance_of_9"] ="num_others_in_proximity"
+
+d10 <- ddply(realGame_data, ~visibility_radius+treatments_order+num_others_in_distance_of_10, summarize, m = mean(share), error = se(share))
+d10$proximity <- 10
+colnames(d10)[colnames(d10) == "num_others_in_distance_of_10"] ="num_others_in_proximity"
+
+d <- rbind(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10)
+
+d$Visibility <- factor(d$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
+
+
+
+plot_sharing_and_proximity <- ggplot(d, aes(x = num_others_in_proximity, y = m, color = Visibility, group = Visibility)) +
+  geom_point()+
+  geom_line(size=0.75)+
+  #geom_errorbar(aes(ymin=m - 2*error, ymax=m + 2*error), size=0.75, width=.1) +
+  #geom_ribbon(aes(ymin = m - 2*error, ymax = m + 2*error, fill = share_lag2), alpha=0.2)+
+  #scale_x_continuous(breaks = seq(0,5,1))+
+  facet_grid( treatments_order~proximity, labeller=labeller(proximity=label_both, treatments_order=label_value))+
+  guides(color=guide_legend(title="Visibility") , fill=guide_legend(title="Visibility")) +
+  xlab("Number of neighbors in proximity") +
+  ylab("Sharing probability") +
+  theme_classic()+
+  theme(strip.background=element_blank(), text = element_text(size=12,  family="sans"))+
+  scale_fill_manual(values=cbbPalette)+
+  scale_color_manual(values=cbbPalette)
+ggsave(filename = "Results/Sharing_Proxmity.pdf", plot = plot_sharing_and_proximity, height =8.5, width = 11, units = "in")
+
+
+d <- ddply(realGame_data, ~visibility_radius+treatments_order+mean_distance_to_others, summarize, m = mean(share), error = se(share))
+d$Visibility <- factor(d$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
+
+plot_sharing_and_proximity2 <- ggplot(d, aes(x = mean_distance_to_others, y = m, color = Visibility, group = Visibility)) +
+  geom_point()+
+  geom_line(size=0.75)+
+  geom_smooth( aes(color=Visibility, fill=Visibility),method="loess")+
+  #geom_errorbar(aes(ymin=m - 2*error, ymax=m + 2*error), size=0.75, width=.1) +
+  #geom_ribbon(aes(ymin = m - 2*error, ymax = m + 2*error, fill = share_lag2), alpha=0.2)+
+  #scale_x_continuous(breaks = seq(0,5,1))+
+  facet_grid( treatments_order~., labeller=label_value)+
+  guides(color=guide_legend(title="Visibility") , fill=guide_legend(title="Visibility")) +
+  xlab("Mean distance to others") +
+  ylab("Sharing probability") +
+  theme_classic()+
+  theme(strip.background=element_blank(), text = element_text(size=12,  family="sans"))+
+  scale_fill_manual(values=cbbPalette)+
+  scale_color_manual(values=cbbPalette)
+ggsave(filename = "Results/Sharing_Proxmity2.pdf", plot = plot_sharing_and_proximity2, height =6, width = 8, units = "in")
+
+
+realGame_data$num_neighbours_in_visibility_radius <- as.numeric(realGame_data$num_neighbours_in_visibility_radius)
+d <- ddply(realGame_data, ~visibility_radius+treatments_order+num_neighbours_in_visibility_radius, summarize, m = mean(share), error = se(share))
+d$Visibility <- factor(d$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
+d$num_neighbours_in_visibility_radius <- d$num_neighbours_in_visibility_radius -1
+
+plot_sharing_and_proximity3 <- ggplot(d, aes(x = num_neighbours_in_visibility_radius, y = m, color = Visibility, group = Visibility)) +
+  geom_point()+
+  geom_line(size=0.75)+
+  #geom_smooth( aes(color=Visibility, fill=Visibility),method="loess")+
+  geom_errorbar(aes(ymin=m - 2*error, ymax=m + 2*error), size=0.75, width=.1) +
+  #geom_ribbon(aes(ymin = m - 2*error, ymax = m + 2*error, fill = share_lag2), alpha=0.2)+
+  #scale_x_continuous(breaks = seq(0,5,1))+
+  facet_grid( treatments_order~., labeller=label_value)+
+  guides(color=guide_legend(title="Visibility") , fill=guide_legend(title="Visibility")) +
+  xlab("Number of neighbors in visibility radius") +
+  ylab("Sharing probability") +
+  theme_classic()+
+  theme(strip.background=element_blank(), text = element_text(size=12,  family="sans"))+
+  scale_fill_manual(values=cbbPalette)+
+  scale_color_manual(values=cbbPalette)
+ggsave(filename = "Results/Sharing_Proxmity3.pdf", plot = plot_sharing_and_proximity3, height =5, width = 6, units = "in")
+
+
+
+
+
+realGame_data$num_neighbours_in_visibility_radius <- as.numeric(realGame_data$num_neighbours_in_visibility_radius)
+realGame_data$share_lag2_numeric <- ifelse (realGame_data$share_lag2 == "Yes", 1, 0)
+d <- ddply(subset(realGame_data, round_num_in_game>2), ~participant.code+visibility_radius+treatments_order+game_in_treatment, summarize, m = mean(num_neighbours_in_visibility_radius-1), error = se(num_neighbours_in_visibility_radius), total_sharing = sum(share_lag2_numeric))
+d <- ddply(d, ~visibility_radius+total_sharing, summarize, m = mean(m), error = se(error))
+d$Visibility <- factor(d$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
+
+plot <- ggplot(d, aes(x = total_sharing, y = m, color = Visibility, group = Visibility)) +
+  geom_point()+
+  geom_line(size=0.75)+
+  geom_errorbar(aes(ymin=m - 2*error, ymax=m + 2*error), size=0.75, width=.1) +
+  #geom_ribbon(aes(ymin = m - 2*error, ymax = m + 2*error, fill = Visibility), alpha=0.2)+
+  geom_smooth( aes(color=Visibility, fill=Visibility),method="lm")+
+  #scale_x_continuous(breaks = seq(0,15,5))+
+  #facet_grid( .~treatments_order, labeller=label_value)+
+  guides(color=guide_legend(title="Visibility") , fill=guide_legend(title="Visibility")) +
+  xlab("Total number of sharing decisions") +
+  ylab("Number of neighbors in visibility radius (t+2)") +
+  theme_classic()+
+  theme(strip.background=element_blank(), text = element_text(size=12,  family="sans"))+
+  scale_fill_manual(values=cbbPalette)+
+  scale_color_manual(values=cbbPalette)
+ggsave(filename = "Results/NumRecruitedVsTotalSharing.png", plot = plot, height =4, width = 6, units = "in")
+
+
+
+
+
+#realGame_data$num_neighbours_in_visibility_radius <- as.numeric(realGame_data$num_neighbours_in_visibility_radius)
+d <- ddply(realGame_data, ~participant.code+visibility_radius+treatments_order+game_in_treatment+num_neighbours_in_visibility_radius, summarize, m = mean(share), sum=sum(share) )
+d$norm_m <- ifelse(d$sum==0, 0, d$m/d$sum)
+d <- ddply(d, ~visibility_radius+num_neighbours_in_visibility_radius, summarize, m = mean(norm_m), error = se(norm_m))
+d$Visibility <- factor(d$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
+d$num_neighbours_in_visibility_radius <- d$num_neighbours_in_visibility_radius -1
+
+plot <- ggplot(d, aes(x = num_neighbours_in_visibility_radius, y = m, color = Visibility, group = Visibility)) +
+  geom_point()+
+  geom_line(size=0.75)+
+  #geom_smooth( aes(color=Visibility, fill=Visibility),method="lm")+
+  geom_errorbar(aes(ymin=m - 2*error, ymax=m + 2*error), size=0.75, width=.1) +
+  #geom_ribbon(aes(ymin = m - 2*error, ymax = m + 2*error, fill = share_lag2), alpha=0.2)+
+  scale_x_continuous(breaks = seq(0,6,1))+
+  #facet_grid( treatments_order~., labeller=label_value)+
+  guides(color=guide_legend(title="Visibility") , fill=guide_legend(title="Visibility")) +
+  xlab("Number of neighbors in visibility radius") +
+  ylab("Normalized Sharing probability") +
+  theme_classic()+
+  theme(strip.background=element_blank(), text = element_text(size=12,  family="sans"))+
+  scale_fill_manual(values=cbbPalette)+
+  scale_color_manual(values=cbbPalette)
+ggsave(filename = "Results/SharingVsNumVisible3.pdf", plot = plot, height =5, width = 6, units = "in")
+
+
+
+
+
+realGame_data$num_neighbours_in_visibility_radius <- as.numeric(realGame_data$num_neighbours_in_visibility_radius)
+realGame_data$share_lag2_numeric <- ifelse (realGame_data$share_lag2 == "Yes", 1, 0)
+d <- ddply(realGame_data, ~participant.code+visibility_radius+treatments_order+game_in_treatment, summarize, m = mean(num_neighbours_in_visibility_radius-1), m2 = sum(share), error = se(share))
+d <- ddply(d, ~visibility_radius+m, summarize, m2 = mean(m2), error = se(error))
+d$Visibility <- factor(d$visibility_radius,levels = c(0,2),labels = c("No", "Yes"))
+
+plot <- ggplot(d, aes(x = m, y = m2, color = Visibility, group = Visibility)) +
+  geom_point()+
+  #geom_line(size=0.75)+
+  #geom_errorbar(aes(ymin=m2 - 2*error, ymax=m2 + 2*error), size=0.75, width=.1) +
+  #geom_ribbon(aes(ymin = m - 2*error, ymax = m + 2*error, fill = Visibility), alpha=0.2)+
+  geom_smooth( aes(color=Visibility, fill=Visibility),method="lm")+
+  #scale_x_continuous(breaks = seq(0,15,5))+
+  #facet_grid( .~treatments_order, labeller=label_value)+
+  guides(color=guide_legend(title="Visibility") , fill=guide_legend(title="Visibility")) +
+  ylab("Total number of sharing decisions") +
+  xlab("Average number of neighbors in visibility radius") +
+  theme_classic()+
+  theme(strip.background=element_blank(), text = element_text(size=12,  family="sans"))+
+  scale_fill_manual(values=cbbPalette)+
+  scale_color_manual(values=cbbPalette)
+ggsave(filename = "Results/NumNeighborsVsTotalSharing.pdf", plot = plot, height =4, width = 6, units = "in")
 
 
 

@@ -6,7 +6,7 @@ save_plot("Results/Search_strategies_Evolution_combined.pdf", plot, base_height=
 
 #Option 2
 plot2 <- ggdraw(learning_curve_round_payoff) + # + theme_half_open(12)) +
-          draw_plot(plot_payoff_no_stat_comparison, .12, .55, .40, .35) +
+          draw_plot(plot_payoff_no_stat_comparison, .12, .55, .38, .35) +
          draw_plot_label(
            c("a", "b"),
            #c(0, 2),
@@ -16,6 +16,8 @@ plot2 <- ggdraw(learning_curve_round_payoff) + # + theme_half_open(12)) +
            size = 12
          )
 save_plot("Results/LearningCurve_RoundPayoff_combined.pdf", plot2, base_height=4.5, base_width=7 ,ncol=1, nrow=1)
+save_plot("Results/LearningCurve_RoundPayoff_combined2.pdf", plot2, base_height=3.2, base_width=7 ,ncol=1, nrow=1)
+
 
 
 #Option 3

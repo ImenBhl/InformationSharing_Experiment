@@ -198,6 +198,17 @@ for (r in (1:nrow(realGame_data))) {
 }
 
 
+realGame_data$num_others_in_distance_of_1 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=1))
+realGame_data$num_others_in_distance_of_2 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=2))
+realGame_data$num_others_in_distance_of_3 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=3))
+realGame_data$num_others_in_distance_of_4 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=4))
+realGame_data$num_others_in_distance_of_5 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=5))
+realGame_data$num_others_in_distance_of_6 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=6))
+realGame_data$num_others_in_distance_of_7 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=7))
+realGame_data$num_others_in_distance_of_8 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=8))
+realGame_data$num_others_in_distance_of_9 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=9))
+realGame_data$num_others_in_distance_of_10 <- apply(realGame_data, 1, function(x) sum((x$distance_to_players[-x$id_in_group])<=10))
+
 
 
 
