@@ -33,6 +33,22 @@ realGame_data$part <- ifelse(realGame_data$game_num<=4, "Part 1", "Part 2")
 realGame_data$group.id <- paste0(as.character(realGame_data$group.id_in_subsession),"_",as.character(realGame_data$game_in_treatment),"_", as.character(realGame_data$session.code))
 
 
+
+
+# Fixing the variables "neighbours_in_my_visibility_radius" and "all_visible_neighbours"
+realGame_data$neighbours_in_my_visibility_radius <- ifelse (realGame_data$round_num_in_game > 1 & realGame_data$treatment_name == "No visibility", realGame_data$id_in_group, realGame_data$neighbours_in_my_visibility_radius)
+
+for (r in (1:nrow(realGame_data))) {
+  #print (r)
+  if (realGame_data$treatment_name[r] == "No visibility" & realGame_data$round_num_in_game[r] > 1){
+    realGame_data$all_visibile_neighbours[r][[1]] <- unique(c( realGame_data$neighbours_in_my_visibility_radius[r][[1]], realGame_data$my_sharing_neighbours[r][[1]]))
+  }
+}
+
+
+
+
+
 ######################
 ###lagging variables
 #####################s
